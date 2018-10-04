@@ -73,9 +73,9 @@ def recursive_find_emails_from_url(url, deep, visited_pages, links, emails):
 
 def main():
     links, emails = find_emails_from_url(URL_1, DEEP)
-    print("===== LINKS =====")
-    print(links)
-    print(len(links))
+    # print("===== LINKS =====")
+    # print(links)
+    # print(len(links))
     print("===== EMAILS =====")
     print(emails)
     print(len(emails))
